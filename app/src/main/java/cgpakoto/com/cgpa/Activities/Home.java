@@ -49,12 +49,12 @@ public class Home extends AppCompatActivity implements AdapterSemister.OnSemiste
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         myAdapter=new AdapterSemister();
         recyclerView.setAdapter(myAdapter);
-        AdView adView;
-        adView=findViewById(R.id.adVieww);
-
-        AdRequest adRequest=new AdRequest.Builder().build();
-
-        adView.loadAd(adRequest);
+//        AdView adView;
+//        adView=findViewById(R.id.adVieww);
+//
+//        AdRequest adRequest=new AdRequest.Builder().build();
+//
+//        adView.loadAd(adRequest);
 
 
         new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0,ItemTouchHelper.LEFT

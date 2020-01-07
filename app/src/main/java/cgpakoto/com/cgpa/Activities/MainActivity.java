@@ -72,15 +72,6 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnCou
         setContentView(R.layout.activitymain);
         Initialize();
 
-        MobileAds.initialize(this,getResources().getString(R.string.appid) );
-
-
-        AdView adView;
-      adView=findViewById(R.id.adView);
-
-       AdRequest adRequest=new AdRequest.Builder().build();
-
-       adView.loadAd(adRequest);
 
         myViewModel= ViewModelProviders.of(this).get(CgpaViewModel.class);
 

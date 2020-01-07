@@ -5,10 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="uppertext">Input Credit/Marks and Gpa per subject</string>
     <string name="banneradtest">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="bannerid">ca-app-pub-4990484397475320/2149890898</string>
-    <string name="interstrial">ca-app-pub-4990484397475320/9064429829</string>
-    <string name="appid">ca-app-pub-4990484397475320~9389677540</string>
-    <string name="bannerhomeid">ca-app-pub-4990484397475320/8334277364</string>
+    
 
     <string name="action_settings">Settings</string>
     <string-array name="options">

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="3dp"
+    android:id="@+id/itemmm"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="slno:"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:id="@+id/slnoid"
+            android:layout_margin="5dp"
+            android:textColor="@color/blueis"
+            android:layout_weight="1"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit:"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/creditid"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/blueis"
+            android:layout_weight="2"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPA:"
+            android:textSize="18sp"
+             android:id="@+id/gpaid"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:textColor="@color/colorPrimary"
+
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

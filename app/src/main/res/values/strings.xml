@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CGPA ?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="uppertext">Input Credit/Marks and Gpa per subject</string>
+    <string name="banneradtest">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="bannerid">ca-app-pub-4990484397475320/2149890898</string>
+    <string name="interstrial">ca-app-pub-4990484397475320/9064429829</string>
+    <string name="appid">ca-app-pub-4990484397475320~9389677540</string>
+    <string name="bannerhomeid">ca-app-pub-4990484397475320/8334277364</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="options">
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D</item>
+
+
+    </string-array>
+    <string name="title_activity_notification_activity">notification_activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
